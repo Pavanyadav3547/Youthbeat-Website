@@ -150,7 +150,10 @@ img.man {
 }
 
 .all-pages{
-    padding:1rem 8rem 0rem 7rem;
+    padding:2rem 8rem 0rem 7rem;
+}
+.white .all-pages{
+    padding: 2rem 8rem 0rem 7rem;
 }
 
 @media screen and (max-width:768px) {
@@ -164,6 +167,13 @@ img.man {
     .white .logo_bar{
         padding: 0.8rem 2rem 0rem 2rem;
     }
+    .all-pages{
+        padding:1rem!important;
+    }
+    .white .all-pages{
+       padding-top: 0.1rem!important;
+    }
+
 }
 
 
@@ -653,3 +663,4 @@ footer a:hover {
     color: #ffffff;
     padding-top: 2rem;
 }
+
