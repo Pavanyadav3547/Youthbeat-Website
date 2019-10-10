@@ -54,8 +54,9 @@
     top: 0;
     right: 0;
     background-color: #111;
-    transition: 0.5s;
+    transition: 0.3s;
     background-image: url(../img/home2.png);
+    background-size: cover;
 
 
 }
@@ -63,17 +64,16 @@
 .sidenavsecond a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 25px;
+    font-size: 30px;
     color: #ffffff;
     display: block;
-    transition: 0.3s;
 
 }
 
 .sidenavsecond .closebtn {
     position: absolute;
-    right: -118px;
-    top: 280px;
+    right: -117px;
+    bottom: 28%;
     width: 175px;
     margin-left: 100%;
     ms-writing-mode: tb-rl;
@@ -177,17 +177,14 @@
 }
 
 .sticky-first{
-    position: absolute;
-   left: 3.5rem;
-    top: -16px;
+    position: fixed;
+    top:auto;
     width: 140px;
-    margin-top: -119px;
-    margin-bottom: -433px;
     bottom: 0;
     list-style: none;
-    height: 150%;
+    height: 100%;
     background-color: #dfdfe1;
-    margin-left: 100%;
+    margin:0 0 0 96%;
     ms-writing-mode: tb-rl;
     -webkit-writing-mode: vertical-rl;
     writing-mode: vertical-rl;
